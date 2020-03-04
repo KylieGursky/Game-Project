@@ -11,9 +11,9 @@ function draw(){
 function face(x,y){
   //x=250 y=200
   fill("blue")
-  rect(x,y,x-50,y-50)
+  rect(x,y,200,150)
   fill("yellow");
-  ellipse(x+80,y+100,x-150,y-100);
+  ellipse(x+80,y+100,100,100);
   fill("black")
   ellipse(x+250,y+90,50,50)
   ellipse(x+110,y+90,50,50)
