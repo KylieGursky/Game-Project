@@ -11,6 +11,6 @@ function draw(){
   fill("black")
   ellipse(300,290,50,50)
   ellipse(360,290,50,50)
-  line(300,350,375,350)
+  line(320,325,355,325)
 
 }
