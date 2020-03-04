@@ -5,7 +5,7 @@ function setup() {
 function draw(){
 	background(220,100,3);
   fill("blue")
-  rect(250,200,100,150)
+  rect(250,200,200,150)
   fill("yellow");
   ellipse(330,300,100,100);
   fill("black")
