@@ -8,7 +8,7 @@ let firstFace
 let secondFace
 
 function setup() {
-  createCanvas(800, 400);
+  createCanvas(1000, 500);
   b = new Bird(0, 100,"red"); //make a new ball from the Ball class and call it b.
   anotherBall = new Bird(200,20,"green");
   thirdBall = new Bird(145,75,"yellow")
