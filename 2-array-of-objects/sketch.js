@@ -68,10 +68,10 @@ class Ball {
 	moveBall(){ //update the location of the ball, so it moves across the screen
 		this.x = this.x+this.speed;
 		this.y = this.y+this.speed2;
-    if (this.x == 800){
+    if (this.x == 700){
       this.speed= -this.speed;
     }
-    if (this.y == 400){
+    if (this.y == 350){
       this.speed2= -this.speed2;
     }
     if (this.x == 0){
