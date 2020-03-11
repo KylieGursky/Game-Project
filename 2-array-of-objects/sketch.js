@@ -24,7 +24,7 @@ function draw(){
 }
 function keyPressed() {
   if (keyCode === LEFT_ARROW) {
-    let  c = new Ball(100, 100,20,"blue", 1.5,1);
+    let  c = new Ball(100, 100,20,"blue", 3,2);
     balls.push(c);
     console.log(balls);
   }
@@ -74,7 +74,7 @@ class Ball {
     if (this.y == 350){
       this.speed2= -this.speed2;
     }
-    if (this.x == 0){
+    if (this.x == 10){
       this.speed= -this.speed;
     }
     if (this.y == 0){
@@ -99,10 +99,10 @@ class Ball {
 	movesquare(){ //update the location of the ball, so it moves across the screen
 		this.x = this.x+this.speed;
 		this.y = this.y+this.speed2;
-  if (this.x == 700){
+  if (this.x == 750){
     this.speed= -this.speed;
   }
-  if (this.y == 350){
+  if (this.y == 375){
     this.speed2= -this.speed2;
   }
   if (this.x == 0){
