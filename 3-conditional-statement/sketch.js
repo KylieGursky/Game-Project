@@ -47,13 +47,28 @@ class Avatar {
     		stroke("green");
         strokeWeight(3);
     		fill("blue");
-		    ellipse(this.x,this.y,20,20);
+		    ellipse(this.x,this.y-10,20,20);
+        fill("black");
+        push();
+        noStroke();
+        ellipse(this.x+5,this.y-13,5,5);
+        pop();
         line(this.x,this.y, this.x, this.y+40);
         line(this.x, this.y+40, this.x-20, this.y+60);
         line(this.x, this.y+40, this.x+10, this.y+50);
         line(this.x+10, this.y+50, this.x+5, this.y+60);
         line(this.x, this.y+15, this.x-10, this.y+25);
         line(this.x-10, this.y+25, this.x+10, this.y+35);
+        noStroke();
+        fill(185,123,0);
+        ellipse(this.x+15,this.y+30,20,10);
+        fill(244,182,229);
+        ellipse(this.x+15,this.y+28,15,5);
+        fill(0);
+        ellipse(this.x+15.5,this.y+27.5,5,3)
+        rect(this.x-3,this.y+35,5,10)
+        fill("yellow")
+        rect(this.x-2.5,this.y+35.5,4,9)
 	}
 
 	moveMe(){
@@ -87,8 +102,8 @@ class Ball {
 	drawBall(){
     	stroke(0);
       strokeWeight(1);
-    	fill("red");
-		  ellipse(this.x,this.y,10,10);
+    	fill("black");
+		  ellipse(this.x,this.y,8,5);
 	}
 
 	//update the location of the ball, so it moves across the screen
