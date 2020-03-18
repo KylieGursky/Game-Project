@@ -115,7 +115,10 @@ class Ball {
 	//if the ball hits the person, change the speed value to negative (send it in the opposite direction)
   	bounceBall(){
     		if (this.x >= me.x-15 && this.x <= me.x+15 && this.y > me.y-40 && this.y < me.y+40){
-      			this.speed = -this.speed;
+      			// this.speed = -this.speed;
+            fill(250,0,0)
+            noStroke()
+            ellipse(this.x,this.y,15,10)
     		}
   	}
 
